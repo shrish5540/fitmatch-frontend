@@ -1,27 +1,26 @@
-# 🏋️ FitMatch
 
-FitMatch is an AI-powered gym partner finder that helps fitness enthusiasts connect with like-minded workout partners.
+# 🔥 FitMatch
 
-## 🚀 Live Demo
+AI-powered gym partner finder with swipe matching, real-time chat, AI fitness coaching, workout generation, diet recommendations, and progress tracking.
 
-https://fitmatch-frontend-alpha.vercel.app
+## 🌐 Live Demo
+
+https://fitmatch-frontend-alpha.vercel.app/
 
 ## ✨ Features
 
-* 🔐 JWT Authentication
-* 👤 Profile Management
-* 📸 Profile Photo Uploads (Cloudinary)
-* ❤️ Swipe-Based Matching
-* 🤝 Match Creation
-* 💬 Real-Time Chat
-* 🤖 AI Fitness Coach
-* 🏋️ AI Workout Generator
-* 🥗 AI Diet Generator
-* 🔥 Daily Streak Tracking
-* 📈 Progress Dashboard
-* 🏆 Leaderboard System
+* Swipe-based gym partner matching
+* Real-time chat with Socket.IO
+* AI Fitness Coach
+* AI Workout Generator
+* AI Diet Recommendations
+* Progress & Streak Tracking
+* Leaderboard System
+* Profile Photo Uploads
+* JWT Authentication
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
+
 
 ### Frontend
 
@@ -35,21 +34,49 @@ https://fitmatch-frontend-alpha.vercel.app
 
 * Node.js
 * Express.js
-* MongoDB Atlas
+
+
+=======
+* MongoDB
+* Socket.IO
 * JWT Authentication
-* Cloudinary
 * Groq AI
-
-## 🌐 Deployment
-
-* Frontend: Vercel
-* Backend: Render
-* Database: MongoDB Atlas
+* Cloudinary
 
 ## 📸 Screenshots
 
-Screenshots coming soon.
+### Login
 
-## 👨‍💻 Author
+![Login](README-assets/login.png)
 
-Shrishti Gupta
+### Swipe Matching
+
+![Swipe](README-assets/swipe.png)
+
+### Matches
+
+![Matches](README-assets/matches.png)
+
+### Chat
+
+![Chat](README-assets/chat.png)
+
+### AI Coach
+
+![AI Coach](README-assets/ai-coach.png)
+
+### Workout Plan
+
+![Workout](README-assets/ai-workout.png)
+
+### Diet Plan
+
+![Diet](README-assets/ai-dietplan.png)
+
+### Streak Tracking
+
+![Streak](README-assets/streak.png)
+
+### Leaderboard
+
+![Leaderboard](README-assets/leaderboard.png)
