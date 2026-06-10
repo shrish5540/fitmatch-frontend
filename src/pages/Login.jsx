@@ -77,6 +77,22 @@ export default function Login() {
           >
             {loading ? 'Signing in...' : 'Sign In'}
           </button>
+
+          <p className="text-sm text-gray-400 text-center mt-4">
+  Want to explore quickly?
+</p>
+
+<button
+  type="button"
+  onClick={() => {
+    setEmail("demo@fitmatch.com")
+    setPassword("Demo@123")
+  }}
+  className="w-full mt-3 border border-orange-500 text-orange-400 py-3 rounded-xl hover:bg-orange-500 hover:text-white transition font-medium"
+>
+  Use Demo Account
+</button>
+
         </form>
 
         <p className="text-center text-gray-500 text-sm mt-6">
